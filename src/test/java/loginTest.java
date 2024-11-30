@@ -65,8 +65,7 @@ public class loginTest extends TestBase {
         Course_Map_object = new Course_Map_Page(driver);
         Assert.assertTrue(Course_Map_object.getTxt().contains(courseName));
         Assert.assertTrue(Course_Map_object.getTxt().contains(courseName));
-        Assert.assertTrue(Course_Map_object.getTxt().contains(courseName));
-        Assert.assertTrue(Course_Map_object.getTxt().contains(courseName));
+
     }
 
     /**
